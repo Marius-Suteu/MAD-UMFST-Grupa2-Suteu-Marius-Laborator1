@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CounterApp</string>
+    <string name="button_message">Show Message</string>
+    <string name="button_counter">Increment Counter</string>
+    <string name="text_initial">Press a button</string>
+    <string name="message_short">Short Message</string>
+</resources>
