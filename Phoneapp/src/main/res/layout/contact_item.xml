@@ -1,0 +1,47 @@
+<!-- contact_item.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/default_avatar"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/imageView"/>
+
+    <!-- Butonul de expandare -->
+    <Button
+        android:id="@+id/expandButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="+"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="4dp"
+        android:visibility="gone"/>
+
+    <!-- Detalii suplimentare -->
+    <LinearLayout
+        android:id="@+id/detailsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="8dp"
+        android:visibility="gone">
+
+        <!-- Adaugă TextView-urile pentru numărul de telefon, adresă de email, adresă etc. aici -->
+    </LinearLayout>
+
+</RelativeLayout>
