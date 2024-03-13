@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E64FAB3A"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/intent1_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Start Activity 1"
+    android:layout_marginTop="16dp"
+    android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/intent2_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Open Website"
+    android:layout_below="@id/intent1_button"
+    android:layout_marginTop="16dp"
+    android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/intent3_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Send Email"
+    android:layout_below="@id/intent2_button"
+    android:layout_marginTop="16dp"
+    android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
