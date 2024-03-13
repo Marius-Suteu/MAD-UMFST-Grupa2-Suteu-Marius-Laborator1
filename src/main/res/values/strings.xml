@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Laborator3</string>
+    <string name="app_name">ActivitiesApp</string>
+
+    <string name="description_activity1">Castelul Bran, situat în Munții Carpați în județul Brașov,
+        este cunoscut și sub numele de „Castelul lui Dracula”. Acest castel impresionant datează
+        din secolul al XIV-lea și este renumit pentru legăturile sale cu personajul fictiv Dracula,
+        creat de Bram Stoker. Cu arhitectura sa impunătoare și poziționarea sa pitorească în
+        mijlocul peisajului montan, Castelul Bran atrage numeroși turiști din întreaga lume care
+        doresc să exploreze istoria și legendele care înconjoară acest loc fascinant.</string>
+
+    <string name="description_activity2">Cetatea Sighișoara, este situată în inima Transilvaniei,
+        Cetatea Sighișoara este unul dintre cele mai bine conservate orașe medievale din Europa
+        și a fost inclusă în Patrimoniul Mondial UNESCO. Acest oraș fortificat impresionant datează
+        din secolul al XII-lea și este renumit pentru turnurile sale masive, casele colorate și
+        atmosfera sa medievală autentică. Vizitatorii pot explora străzile înguste pavate cu
+        piatră, pot admira arhitectura gotică și renascentistă și pot urca pe Dealul Cetății
+        pentru a avea o panoramă splendidă asupra orașului și a împrejurimilor sale.</string>
+
+    <string name="description_activity3">Delta Dunării este una dintre cele mai mari și mai bine
+        conservate delte din Europa și este un paradis natural pentru iubitorii de natură și
+        pasionații de observare a păsărilor. Aflată în partea de sud-est a României, Delta
+        Dunării este o regiune de biodiversitate unică, cu o varietate impresionantă de habitate,
+        plante și animale sălbatice. Vizitatorii pot explora delta cu barca sau cu canoele,
+        pot admira frumusețea peisajelor, pot observa diferitele specii de păsări și pot
+        experimenta stilul de viață tradițional al comunităților locale din satele pescărești.</string>
 </resources>
